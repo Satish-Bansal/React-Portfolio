@@ -9,7 +9,7 @@ const Header = () => {
             <section className={style.main}>
                 <div className={style.logo}>
                     <Link to='/'>
-                        <img src="./public/logo (2).png" alt="hello" />
+                        <img src={`${process.env.PUBLIC_URL}/logo (2).png`} alt="hello" />
                         <h6>Satish Bansal</h6>
                     </Link>
                 </div>

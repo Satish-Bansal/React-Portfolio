@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import style from '../Header/Header.module.css';
-
+import img from '/public/logo (2).png'
 
 const Header = () => {
 
@@ -9,7 +9,7 @@ const Header = () => {
             <section className={style.main}>
                 <div className={style.logo}>
                     <Link to='/'>
-                        <img src={`${process.env.PUBLIC_URL}/public/logo (2).png`} alt="hello" />
+                        <img src={img} alt="hello" />
                         <h6>Satish Bansal</h6>
                     </Link>
                 </div>
